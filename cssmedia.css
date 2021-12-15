@@ -1,0 +1,271 @@
+@media screen and (max-width:767px) {
+
+    
+    .navmenu1 nav span{
+        padding-left: 2%;
+        padding-right: 4%;
+        padding-top: 20px;
+    }
+    .navmenu1 nav{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .navmenu1 nav a{
+        padding: 15px;
+    }
+
+    .navmenu1{
+        width: 100%;
+        height: 30%;
+    }
+    .sectionone{
+        height: 350px;
+    }
+    .sec1txt{
+        width: 90%;
+        margin-left: 7%;
+        
+    }
+    .sec1txtdv3{
+        display: none;
+        
+    }
+    .sec1txtdv2{
+        display: none;
+    
+    }
+    .sec1txtdv{
+       width: 120%;
+       margin-top: 33vh;
+    }
+
+    .sectiontwo{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 7%;
+        font-family: 'Ubuntu';
+        display: block;
+        
+    }
+    
+    .leftside{
+        width: 100%;
+    }
+    .sectiontwo nav{
+        width: 100%;
+    
+    }
+   
+    .sectiontwo nav a{
+        padding: 2%;
+    }
+    
+    .containerdv1{
+        display: block;
+        width: 100%;
+    }
+    .bgdv{
+        width: 100%;
+        display: block;
+
+    }
+    
+    .smalldv{
+        width: 100%;
+        margin-left: 0%;
+    }
+   
+    
+    .containerdv2 {
+        width: 100%;
+        display: block;
+    }
+    
+    .containerdv2 .bgdv{
+        width: 100%;
+    }
+    #bgdvleft{
+        margin-left: 0%;
+    }
+    
+    .containerdv3{
+        display: block;
+        width: 100%;
+       
+    }
+    .containerdv3 div{
+        width: 100%;
+    }
+    .containerdv3 div .dv-flex{
+        width: 100%;
+    }
+    .containerdv3 div .a1{
+        width: 100%;
+    }
+    #consmallleft{
+        margin-left: 0%;
+    }
+    
+    .aside1{
+        width: 90%;
+    }
+    
+    
+    .aside1 div h2{
+        margin: 5%;
+    }
+    
+    .aside1 div p{
+        margin: 5%;
+    }
+    
+    .topstories div{
+        display: flex;
+        box-shadow: 3px 3px 5px 2px #d5d5d5;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+    .topstories div img{
+        width: 70px;
+        height: 70px;
+    }
+    .topstories div p{
+        font-weight: 450;
+    }
+    
+    .stayconnected a i{
+        color: #d5d5d5;
+        font-size: 24px;
+        margin: 4%;
+    }
+    
+    .imgsec img{
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .imgsec h3{
+        width: 300px;
+        margin: 5%;
+    }
+    
+    .sectionthree{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #sec3dvleft{
+        margin-left: 0%;
+    }
+    
+    .sec3dv{
+        width: 100%;
+    }
+
+    .sectionthree .a1{
+        height: 40px;
+    }
+    .sectionfour{
+        display: block;
+        margin-left: 5%;
+    }
+    .containersec3{
+        width: 100%;
+    }
+
+    .containersec3 hr{
+        width: 90%;
+    }
+    
+    .condv{
+        display: block;
+        width: 95%;
+    }
+
+    .condv img{
+        width: 100%;
+    }
+    .condv .a1{
+        margin-left: 5%;
+        height: 40px;
+    }
+
+   
+    
+    .aside2{
+        display: block;
+        width: 90%;
+        margin-top: 10%;
+    }
+    
+    .headsec4{
+
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .headsec4 hr{
+        width: 100%;
+    }
+    
+    .asidecontainer .bgdv{
+        width: 100%;
+        margin-left: 0%;
+        display: block;
+    }
+
+    .bgdv img{
+        width: 100%;
+    }
+
+    
+    .bgdv div{
+        float: none;
+    }
+    
+
+    .footersec{
+        display: block;
+       
+    }
+    .footdiv{
+        padding-top: 5%;
+        width: 90%;
+    }
+
+    .footdiv p{
+        margin-bottom: 10%;
+    }
+    
+    .footdiv nav{
+        width: 90%;
+        margin-top: 3%;
+        padding-bottom: 20px;
+    
+    }
+    .footdiv h2{
+        padding-bottom: 5%;
+    }
+    .footdiv a{
+        padding:5px 10px 10px 0px ;
+    }
+    
+    .formfoot{
+        padding-top: 6%;
+    }
+    
+    .formfoot input{
+        padding-top: 5%;
+        border: none;
+        width: 250px;
+        height: 35px;
+        padding-bottom: 5%;
+    }
+  
+    .formfoot hr{
+        width: 100%;
+    }
+    
+}

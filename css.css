@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.sectionone{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img1.webp);
+    background-position: center ;
+    background-size: cover;
+    height: 450px;
+}
+
+.navmenu1{
+    color: #d5d5d5;
+    background-color: black;
+    height: 70px;
+    position: sticky;
+	top: 0;
+    width: 100%;
+}
+
+.navmenu1 nav{
+    padding-top: 1%;
+}
+.navmenu1 nav span{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 5% 30% 5% 15%;
+    color: white;
+}
+
+.navmenu1 nav a{
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 14px;
+    padding: 15px;
+}
+.navmenu1 nav a:hover{
+    color: white;
+}
+
+
+.sec1txt{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.sec1txtdv{
+    display: flex;
+    color: #d5d5d5;
+    width: 45%;
+    margin-top: 45vh;
+
+}
+.sec1txtdv2{
+    display: flex;
+    color: #d5d5d5;
+    width: 45%;
+    margin-top: 45vh;
+
+}
+.sec1txtdv3{
+    display: flex;
+    color: #d5d5d5;
+    width: 45%;
+    margin-top: 45vh;
+
+}
+.num{
+    font-size: 24px;
+    font-weight: 700;
+    border: 5px solid #d5d5d5;
+    border-radius: 50px;
+    padding: 14px 20px;
+    
+}
+.txtfoot{
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: "Ubuntu";
+    line-height: 1.5;
+    margin-top: 3%;
+}
+
+.sec1txt div:hover{
+    color: white;
+}
+.sectiontwo{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 7%;
+    font-family: 'Ubuntu';
+    display: flex;
+    
+}
+
+.leftside{
+    
+    width: 70%;
+}
+.sectiontwo nav{
+    width: 90%;
+
+}
+.sectiontwo nav span{
+    
+    padding-right: 13%;
+    font-weight: 550;
+}
+.sectiontwo nav a{
+    text-decoration: none;
+    color: #8d8d8d;
+    padding: 1%;
+    font-size: 14px;
+}
+.sectiontwo nav hr{
+    margin-top: 2%;
+}
+
+.containerdv1{
+    display: flex;
+    width: 90%;
+}
+.bgdv{
+    width: 120%;
+    margin-top: 4%;
+    box-shadow: 3px 3px 7px 2px #d5d5d5;
+    line-height: 1.5;
+}
+.bgdv img{
+    width: 100%;
+}
+.bgdv h3{
+    padding:2% 6% 0% 8%;
+    font-size: 18px;
+    font-weight: 550;
+}
+.bgdv p{
+    padding:2% 3% 0% 8%;
+    padding-top: 3%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8d8d8d;
+}
+.bgdv a{
+    text-decoration: none;
+    color: #8d8d8d;
+    padding: 3% 0%;
+}
+.bgdv a:hover{
+
+    color: blue;
+}
+.smalldv{
+    width: 120%;
+    margin-left: 3%;
+    margin-top: 4%;
+    
+}
+.consmall{
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 7px 2px #d5d5d5;
+}
+.dv-flex{
+    display: block;
+    font-size: 14px;
+    margin-left: 5px;
+    
+}
+.dv-flex p{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.a1{
+    margin-top: 5px;
+    color: #8d8d8d;
+}
+
+.a1 a{
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.btns{
+    margin-top: 3%;
+    color: #d5d5d5;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.containerdv2 {
+    width: 90%;
+    display: flex;
+}
+
+.containerdv2 .bgdv{
+    width: 100%;
+}
+#bgdvleft{
+    margin-left: 3%;
+}
+.containerdv3{
+    display: flex;
+    width: 97%;
+   
+}
+.containerdv3 div{
+    width: 45%;
+}
+.containerdv3 div .dv-flex{
+    width: 100%;
+}
+.containerdv3 div .a1{
+    width: 100%;
+}
+
+#consmallleft{
+    margin-left: 3%;
+}
+.aside1{
+    display: flex;
+    width: 30%;
+    
+}
+
+.aside1 div h2{
+    margin: 5%;
+}
+
+.aside1 div p{
+    margin: 5%;
+}
+
+.topstories div{
+    display: flex;
+    box-shadow: 3px 3px 5px 2px #d5d5d5;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+.topstories div img{
+    width: 70px;
+    height: 70px;
+}
+.topstories div p{
+    font-weight: 450;
+}
+
+.stayconnected a i{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin: 4%;
+}
+
+.imgsec img{
+    width: 300px;
+    margin: 5%;
+}
+
+.imgsec h3{
+    width: 300px;
+    margin: 5%;
+}
+
+.sectionthree{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#sec3dvleft{
+    margin-left: 3%;
+}
+.sec3dv{
+    width: 28%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img2.webp); ;
+}
+.sec3dv button{
+    background-color: white;
+    color: blue;
+    width: 80px;
+    height: 25px;
+    margin: 3%;
+    border: none;
+}
+.sec3dv button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.txtsec3{
+    margin: 5%;
+    text-align: center;
+    color: white;
+}
+
+.sectionthree .a1{
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+.sectionfour{
+    display: flex;
+    margin-left: 10%;
+}
+.containersec3{
+    width: 60%;
+    
+}
+
+.condv{
+    margin-top: 5%;
+    display: flex;
+    box-shadow: 3px 3px 5px 2px #d5d5d5;
+
+}
+
+.condv-flex h3{
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-bottom: 10px;
+}
+
+.condv-flex p{
+    line-height: 1.5;
+    margin-left: 5%;
+    padding-bottom: 10px;
+}
+
+.condv .a1{
+    margin-left: 5%;
+}
+
+.aside2{
+    display: flex;
+    width: 40%;
+}
+
+.headsec4{
+    margin-left: 7%;
+    width: 60%;
+}
+
+.asidecontainer .bgdv{
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 8%;
+}
+
+
+.bgdv div{
+    float: left;
+}
+.bgdv div button{
+    position: absolute;
+    background-color: white;
+    color: blue;
+    width: 80px;
+    height: 25px;
+    margin: 1%;
+    border: none;
+    
+}
+.bgdv div button:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+} 
+
+.btn{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button{
+    color: #8d8d8d;
+    border: 2px solid #8d8d8d;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.footersec{
+    display: flex;
+    padding: 5%;
+    background-color: #161616;
+    color: white;
+}
+
+.footdiv{
+    
+    width: 500px;
+    line-height: 1.5;
+}
+.footdiv p{
+    color: #8d8d8d;
+}
+
+.footdiv nav{
+    width: 90%;
+    margin-top: 3%;
+}
+.footdiv h2{
+    padding-bottom: 5%;
+}
+.footdiv a{
+    
+    text-decoration: none;
+    color: #8d8d8d;
+    display: inline-block;
+    padding:10px 30px ;
+}
+
+.formfoot{
+    padding-top: 6%;
+}
+
+.formfoot input{
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color: #161616;
+    color: #d5d5d5;
+}
+.formfoot a{
+    padding: 0px;
+    
+}
+.formfoot hr{
+    width: 60%;
+}
